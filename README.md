@@ -3,10 +3,10 @@ In this repository the code for an in-vivo audio sensor based on a nordic nrf 52
 To get a better understanding of the hardware and firmware implemented I recommend taking a look at the thesis which will also be uploaded to the repo.
 Additionally you can find some python code which converts the over bluetooth received pcm-data into a wav file which is playable on almost every device.
 ## Get the  central code to run with SEGGER embedded studio:
--download the main.c 
--make sure you have SDK 17.02 installed on your PC
--copy the folder ble_app_uart_c 
--replace the main file with the main file presented in the central folder of this repo
+- download the main.c 
+- make sure you have SDK 17.02 installed on your PC
+- copy the folder ble_app_uart_c 
+- replace the main file with the main file presented in the central folder of this repo
 ## Get the peripheral code to work with SEGGER embedded studio:
 -download the main.c ble_custom.c and ble_custom.h
 -make sure you have SDK 17.02 installed on your PC
