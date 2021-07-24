@@ -17,4 +17,5 @@ Additionally you can find some python code which converts the over bluetooth rec
 - in the nrf drivers folder include the nrfx_pdm.c file
 - enable nrfx_pdm via the CMSIS configuration wizzard 
 - build the solution 
-- if you get an error locate the nrfx_glue file and uncomment line 57 (dont ask why! it works now be happy)
+- if you get an error locate the nrfx_glue file and uncomment line 57 
+## In the python folder the demo audio, called 3 min bird can be found 
